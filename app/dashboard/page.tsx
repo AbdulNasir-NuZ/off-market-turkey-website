@@ -4,6 +4,7 @@ import DashboardHeader from "@/components/dashboard/dashboard-header"
 import PropertyListings from "@/components/dashboard/property-listings"
 import DashboardSidebar from "@/components/dashboard/dashboard-sidebar"
 import { useState } from "react"
+export const dynamic = "force-dynamic";
 
 export default function PropertiesPage() {
   const [selectedFilter, setSelectedFilter] = useState("all")
