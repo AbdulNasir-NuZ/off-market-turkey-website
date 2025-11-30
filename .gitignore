@@ -1,0 +1,41 @@
+# Data files (persist locally, don't commit)
+data/db.json
+data/properties.json
+
+# Uploaded files (auto-created, manage separately)
+public/uploads/
+!public/uploads/.gitkeep
+
+# Environment
+.env.local
+.env.local.example
+
+# Dependencies
+node_modules/
+
+# Build outputs
+.next/
+dist/
+build/
+out/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.coverage/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
